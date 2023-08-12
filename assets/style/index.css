@@ -1,0 +1,128 @@
+:root {
+    --corPrincipal: #11141b;
+    --branco: #ededed;
+    --dourado: #dda765;
+    --texto-linha: #545454;
+    --inputs: #e9e9e9;
+  }
+  
+  @font-face {
+    font-family: "Colendra-Alternate";
+    src: url("../fonts/Colendra-Alternate.otf") format("truetype");
+  }
+  @font-face {
+    font-family: "Colendra-bold";
+    src: url("../fonts/Colendra-Bold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: "COPASETI";
+    src: url("../fonts/COPASETI.TTF") format("truetype");
+  }
+  @font-face {
+    font-family: "edosz";
+    src: url("../fonts/edosz.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Prodelt Co";
+    src: url("../fonts/Prodelt\ Co.ttf") format("truetype");
+  }
+
+  body {
+    background-color: var(--corPrincipal);
+  }
+
+  .navbar {
+    background-color: var(--branco);
+  }
+
+  .navbar-toggler {
+    background-color: var(--dourado);
+  }
+
+  .navbar_logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar_logo h3 {
+    font-family: Prodelt Co;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .offcanvas-title {
+    font-family: Prodelt Co;
+    font-size: 18pt;
+  }
+  
+  main {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  .menu-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 9vw;
+}
+
+.menu_img img {
+    width: 216vh;
+}
+
+.menu_buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+.botoes {
+    width: 18rem;
+    height: 8rem;
+    font-family: Prodelt Co;
+    background-color: var(--dourado);
+    border: none;
+    border-radius: 5px;
+    margin-left: 6px;
+    color: var(--branco);
+}
+
+.icone {
+  color: var(--branco);
+  font-size: 28pt;
+  text-shadow: 2px 2px 2px var(--corPrincipal);
+}
+
+.botoes h5 {
+    text-shadow: 2px 2px 2px var(--corPrincipal);
+}
+
+.botoes:hover {
+    background-color: var(--branco);
+    color: var(--dourado);
+}
+
+.botoes:hover i {
+    color: var(--dourado);
+}
+
+footer {
+  margin-top: -2.5rem;
+  text-align: center;
+  color: var(--branco);
+}
+
+footer a {
+  color: var(--dourado);
+  text-decoration: none;
+}
+
