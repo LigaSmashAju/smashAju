@@ -10,7 +10,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
     main {
         min-height: 180vh;
-        min-width: 100%;
+        max-width: 100%;
       }
 
       .menu-main {
