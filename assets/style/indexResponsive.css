@@ -32,15 +32,13 @@
     }
 
     .botoes {
-        width: 30rem;
+        width: 10rem;
         height: 10rem;
         margin-bottom: 5px;
-        margin-left: 8rem;
     }
 
     footer {
         margin-top: -2.5rem;
-        margin-left: 8rem;
         text-align: center;
         color: var(--branco);
       }
