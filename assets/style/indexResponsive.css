@@ -37,4 +37,11 @@
         margin-bottom: 5px;
         margin-left: 8rem;
     }
+
+    footer {
+        margin-top: -2.5rem;
+        margin-left: 8rem;
+        text-align: center;
+        color: var(--branco);
+      }
 }
