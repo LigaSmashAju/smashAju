@@ -1,0 +1,32 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    main {
+        min-height: 200vh;
+        min-width: 90vw;
+      }
+
+      .menu-title {
+        font-family: colendra;
+        color: var(--dourado);
+        display: flex;
+        justify-content: center;
+        margin-top: 42vw;
+    }
+
+    .menu_itens {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+    }
+
+    .premios {
+        width: 18rem;
+        height: 20rem;
+    }
+
+    .itens {
+        margin-bottom: 1rem;
+    }
+        
+}

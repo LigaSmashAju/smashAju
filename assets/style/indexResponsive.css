@@ -1,0 +1,39 @@
+:root {
+    --corPrincipal: #11141b;
+    --branco: #ededed;
+    --dourado: #dda765;
+    --texto-linha: #545454;
+    --inputs: #e9e9e9;
+  }
+  
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    main {
+        min-height: 150vh;
+        min-width: 100vw;
+      }
+
+    .menu_img {
+        display: flex;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+
+    .menu_img img {
+        width: 100vh;
+    }
+
+    .menu_buttons {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .botoes {
+        width: 20rem;
+        height: 10rem;
+        margin-bottom: 5px;
+    }
+}

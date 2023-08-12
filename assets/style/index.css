@@ -102,6 +102,12 @@
     color: var(--branco);
 }
 
+.destaque {
+  background-color: #dda7658c;
+}
+
+
+
 .icone {
   color: var(--branco);
   font-size: 28pt;
@@ -117,8 +123,17 @@
     color: var(--dourado);
 }
 
+.destaque:hover {
+  background-color: #dda7658c;
+  color: var(--branco);
+}
+
 .botoes:hover i {
     color: var(--dourado);
+}
+
+.destaque:hover i {
+  color: var(--branco);
 }
 
 footer {
