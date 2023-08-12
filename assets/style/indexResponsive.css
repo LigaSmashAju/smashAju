@@ -13,6 +13,10 @@
         min-width: 100vw;
       }
 
+      .menu-main {
+        width: 100%;
+    }
+
     .menu_img {
         display: flex;
         justify-content: center;
@@ -32,7 +36,7 @@
     }
 
     .botoes {
-        width: 10rem;
+        width: 20rem;
         height: 10rem;
         margin-bottom: 5px;
     }
