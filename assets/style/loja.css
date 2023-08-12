@@ -64,8 +64,8 @@
   }
   
   main {
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 200vh;
+    min-width: 90vw;
   }
 
   .menu-main {
@@ -74,51 +74,54 @@
     justify-content: center;
 }
 
-.menu_img {
+.menu-title {
+    font-family: colendra;
+    color: var(--dourado);
     display: flex;
     justify-content: center;
-    margin-top: 9vw;
+    margin-top: 12vw;
 }
 
-.menu_img img {
-    width: 216vh;
+.menu-subtitle {
+    display: flex;
+    justify-content: center;
 }
 
-.menu_buttons {
+.menu-subtitle h3 {
+    border: 1px solid var(--dourado);
+    padding: 1rem;
+    background-color: var(--);
+    color: var(--branco);
+    border-radius: 10px;
+}
+
+.menu_itens {
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;  
 }
 
-.botoes {
-    width: 15rem;
-    height: 10rem;
-    font-family: Prodelt Co;
-    background-color: var(--dourado);
-    border: none;
-    border-radius: 5px;
-    margin-left: 6px;
+.itens {
+    margin-left: 1rem;
+    border: 1px solid var(--dourado);
+}
+
+.itens p {
     color: var(--branco);
+    text-indent: 5px;
 }
 
-.icone {
-  color: var(--branco);
-  font-size: 28pt;
-  text-shadow: 2px 2px 2px var(--corPrincipal);
-}
-
-.botoes h5 {
-    text-shadow: 2px 2px 2px var(--corPrincipal);
-}
-
-.botoes:hover {
-    background-color: var(--branco);
+.itens h5 {
     color: var(--dourado);
+    margin-top: -1rem;
+    text-indent: 5px;
+    font-size: 18pt;
 }
 
-.botoes:hover i {
-    color: var(--dourado);
+.premios {
+    width: 15rem;
+    height: 20rem;
 }
 
 footer {
