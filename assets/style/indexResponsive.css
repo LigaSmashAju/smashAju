@@ -10,7 +10,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
     main {
         min-height: 180vh;
-        min-width: 30vw;
+        min-width: 100vw;
       }
 
     .menu_img {
@@ -35,6 +35,6 @@
         width: 30rem;
         height: 10rem;
         margin-bottom: 5px;
-        margin-left: 6px;
+        margin-left: 10rem;
     }
 }
