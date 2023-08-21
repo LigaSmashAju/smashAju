@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    main {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .container-conteudos {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campeonatos {
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5.5rem;
+    }
+
+    .campeonatos_title {
+        width: 20rem;
+    } 
+
+    .banner img {
+        width: 20rem; 
+    }
+
+    .banner-informacoes {
+        width: 20rem;
+    }
+
+    .mural {
+        width: 20rem;
+        margin-top: 3rem;
+        margin-left: 5.5rem;
+    }
+
+    .mural_title {
+       width: 20rem;
+    }
+
+    .mural img {
+        width: 20rem;
+    }
+
+    .carousel {
+        width: 20rem;
+    }
+
+    .container-videos {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-videos-videos {
+        width: 20rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 440px) {
+    main {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .container-conteudos {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campeonatos {
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 7rem;
+    }
+
+    .campeonatos_title {
+        width: 20rem;
+    } 
+
+    .banner img {
+        width: 20rem; 
+    }
+
+    .banner-informacoes {
+        width: 20rem;
+    }
+
+    .mural {
+        width: 20rem;
+        margin-top: 3rem;
+        margin-left: 7rem;
+    }
+
+    .mural_title {
+       width: 20rem;
+    }
+
+    .mural img {
+        width: 20rem;
+    }
+
+    .carousel {
+        width: 20rem;
+    }
+
+    .container-videos {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-videos-videos {
+        width: 20rem;
+        flex-direction: column;
+    }
+}

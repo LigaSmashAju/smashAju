@@ -1,149 +1,136 @@
 :root {
-    --corPrincipal: #11141b;
-    --branco: #ededed;
-    --dourado: #dda765;
-    --texto-linha: #545454;
-    --inputs: #e9e9e9;
-  }
-  
-  @font-face {
-    font-family: "Colendra-Alternate";
-    src: url("../fonts/Colendra-Alternate.otf") format("truetype");
-  }
-  @font-face {
-    font-family: "Colendra-bold";
-    src: url("../fonts/Colendra-Bold.otf") format("truetype");
-  }
-  @font-face {
-    font-family: "COPASETI";
-    src: url("../fonts/COPASETI.TTF") format("truetype");
-  }
-  @font-face {
-    font-family: "edosz";
-    src: url("../fonts/edosz.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: "Prodelt Co";
-    src: url("../fonts/Prodelt\ Co.ttf") format("truetype");
-  }
+  --corPrincipal: #11141b;
+  --branco: #ededed;
+  --dourado: #dda765;
+  --texto-linha: #545454;
+  --inputs: #e9e9e9;
+}
 
-  body {
-    background-color: var(--corPrincipal);
-  }
+@font-face {
+  font-family: "Colendra-Alternate";
+  src: url("../fonts/Colendra-Alternate.otf") format("truetype");
+}
+@font-face {
+  font-family: "Colendra-bold";
+  src: url("../fonts/Colendra-Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: "COPASETI";
+  src: url("../fonts/COPASETI.TTF") format("truetype");
+}
+@font-face {
+  font-family: "edosz";
+  src: url("../fonts/edosz.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Prodelt Co";
+  src: url("../fonts/Prodelt\ Co.ttf") format("truetype");
+}
 
-  .navbar {
-    background-color: var(--branco);
-  }
+body {
+  background-color: var(--corPrincipal);
+}
 
-  .navbar-toggler {
-    background-color: var(--dourado);
-  }
+.navbar {
+  background-color: var(--branco);
+}
 
-  .navbar_logo {
-    display: flex;
-    align-items: center;
-  }
+.navbar-toggler {
+  background-color: var(--dourado);
+}
 
-  .navbar_logo h3 {
-    font-family: Prodelt Co;
-  }
+.navbar_logo {
+  display: flex;
+  align-items: center;
+}
 
-  .logo {
-    width: 100px;
-  }
+.navbar_logo h3 {
+  font-family: Prodelt Co;
+}
 
-  .offcanvas-title {
-    font-family: Prodelt Co;
-    font-size: 18pt;
-  }
+.logo {
+  width: 100px;
+}
 
-  .comingSoon {
-    font-family: Colendra;
-    text-align: center;
-    color: red;
-  }
-  
-  main {
-    min-height: 100vh;
-    min-width: 100vw;
-  }
+.offcanvas-title {
+  font-family: Prodelt Co;
+  font-size: 18pt;
+}
 
-  .menu-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.comingSoon {
+  font-family: Colendra;
+  text-align: center;
+  color: red;
+}
+
+main {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.menu-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .menu_img {
-    display: flex;
-    justify-content: center;
-    margin-top: 9vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 9vw;
 }
 
 .menu_img img {
-    width: 100%;
+  width: 216vh;
 }
 
 .menu_buttons {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;  
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
 }
 
 .botoes {
-    width: 15rem;
-    height: 10rem;
-    font-family: Prodelt Co;
-    background-color: var(--dourado);
-    border: none;
-    border-radius: 5px;
-    margin-left: 6px;
-    color: var(--branco);
+  width: 15rem;
+  height: 10rem;
+  font-family: Prodelt Co;
+  background-color: var(--dourado);
+  border: none;
+  border-radius: 5px;
+  margin-left: 6px;
+  color: var(--branco);
 }
-
-.destaque {
-  background-color: #dda7658c;
-}
-
-
 
 .icone {
-  color: var(--branco);
-  font-size: 28pt;
-  text-shadow: 2px 2px 2px var(--corPrincipal);
+color: var(--branco);
+font-size: 28pt;
+text-shadow: 2px 2px 2px var(--corPrincipal);
 }
 
 .botoes h5 {
-    text-shadow: 2px 2px 2px var(--corPrincipal);
+  text-shadow: 2px 2px 2px var(--corPrincipal);
 }
 
 .botoes:hover {
-    background-color: var(--branco);
-    color: var(--dourado);
+  background-color: var(--branco);
+  color: var(--dourado);
 }
 
-.destaque:hover {
-  background-color: #dda7658c;
-  color: var(--branco);
-}
 
 .botoes:hover i {
-    color: var(--dourado);
+  color: var(--dourado);
 }
 
-.destaque:hover i {
-  color: var(--branco);
-}
 
 footer {
-  margin-top: -2.5rem;
-  text-align: center;
-  color: var(--branco);
+margin-top: -2.5rem;
+text-align: center;
+color: var(--branco);
 }
 
 footer a {
-  color: var(--dourado);
-  text-decoration: none;
+color: var(--dourado);
+text-decoration: none;
 }
 
