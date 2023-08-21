@@ -81,7 +81,7 @@ main {
 }
 
 .menu_img img {
-  width: 216vh;
+  width: 100%;
 }
 
 .menu_buttons {
@@ -123,6 +123,7 @@ text-shadow: 2px 2px 2px var(--corPrincipal);
 }
 
 
+
 footer {
 margin-top: -2.5rem;
 text-align: center;
@@ -133,4 +134,3 @@ footer a {
 color: var(--dourado);
 text-decoration: none;
 }
-
